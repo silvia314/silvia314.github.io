@@ -36,8 +36,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="339.90109"
-     inkscape:cy="952.22075"
+     inkscape:cx="321.93366"
+     inkscape:cy="937.93504"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -59,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,9 +69,28 @@
      id="layer1">
     <flowRoot
        xml:space="preserve"
+       id="flowRoot892"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Vladimir Script';font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Vladimir Script';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"><flowRegion
+         id="flowRegion894"><rect
+           id="rect896"
+           width="362.13968"
+           height="191.92899"
+           x="33.840111"
+           y="229.54483" /></flowRegion><flowPara
+         id="flowPara898" /></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.786574,29.770833 c -30.067824,0 -30.067824,0 -30.067824,0 v 18.17433"
+       id="path939"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="131.56163"
+       inkscape:export-ydpi="131.56163" />
+    <flowRoot
+       xml:space="preserve"
        id="flowRoot13"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.16666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       transform="translate(-0.66145833,-0.04724703)"><flowRegion
+       transform="translate(-0.66145833,-0.04724703)"
+       inkscape:export-xdpi="131.56163"
+       inkscape:export-ydpi="131.56163"><flowRegion
          id="flowRegion15"
          style="stroke-width:0.26458332"><rect
            id="rect17"
@@ -81,25 +100,12 @@
            y="30.148809"
            style="stroke-width:0.07000434" /></flowRegion><flowPara
          id="flowPara19"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Goudy Old Style';-inkscape-font-specification:'Goudy Old Style';fill:#000000;stroke-width:0.26458332">Gymi Pullis </flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot892"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:'Vladimir Script';font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Vladimir Script';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"><flowRegion
-         id="flowRegion894"><rect
-           id="rect896"
-           width="362.13968"
-           height="191.92899"
-           x="33.840111"
-           y="229.54483" /></flowRegion><flowPara
-         id="flowPara898"></flowPara></flowRoot>    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 65.786574,29.770833 c -30.067824,0 -30.067824,0 -30.067824,0 v 18.17433"
-       id="path939"
-       inkscape:connector-curvature="0" />
-    <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Goudy Old Style';-inkscape-font-specification:'Goudy Old Style';fill:#000000;stroke-width:0.26458332">Gymi Pullis </flowPara></flowRoot>    <path
        style="fill:none;stroke:#000000;stroke-width:0.49082449;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 111.47967,53.583333 c 30.07241,0 30.07241,0 30.07241,0 V 36.072589"
        id="path939-7"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="131.56163"
+       inkscape:export-ydpi="131.56163" />
   </g>
 </svg>
