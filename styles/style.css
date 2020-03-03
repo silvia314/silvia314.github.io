@@ -1,10 +1,12 @@
+*{
+margin: 0;
+padding:0;
+font-family: Times New Roman;
+}  
 
-
-h1 {
-    background-color: green;
-}
-
-p{
-    color: red;
-    text-align: center;
+header{
+    background-image: url(.../flowRoot40.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
