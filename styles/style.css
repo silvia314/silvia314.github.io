@@ -12,7 +12,8 @@
   }
 
  header{
-    height: 100vh;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
 }
 
 ul{
@@ -33,7 +34,7 @@ ul li a{
     transition: 0.6s ease;
 }
 
-ul li a: hover{
+ul li a hover{
     background-color: #fff;
     color: "#000"
 }
@@ -44,8 +45,9 @@ ul li.active a{
 }
 
 .logo img{
-    float: left;
-    width: 150px;
+    padding: 20px;
+    float: center;
+    width: 250px;
     height: auto;
 }
 
@@ -58,7 +60,7 @@ ul li.active a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50&);
+    transform: translate(-50%,-50);
 }
 
 .title h1{
