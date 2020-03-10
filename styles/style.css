@@ -37,11 +37,6 @@ ul li a{
     transition: 0.6s ease;
 }
 
-ul li a hover{
-    background-color: rgb(209, 218, 85);
-    color: "#000"
-}
-
 .logo img{
     padding: 20px;
     float: center;
