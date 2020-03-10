@@ -13,7 +13,7 @@
 
 
 @page { margin: 100px 25px; }
-    header { position: fixed; top: 0px; left: 0px; right: 0px; background-color: white; height: 100px; }
+    header { position: fixed top right; top: 0px; left: 0px; right: 0px; background-color: white; height: 175px; }
     footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; background-color: white; text-align: center; height: 200px; }
     p { page-break-after: always; }
     p:last-child { page-break-after: never; }
@@ -60,12 +60,21 @@ ul li a hover{
     transform: translate(-50%,-50);
 }
 
-.title h1{
+title h1{
     color: #000;
     font-size: 70px;
 }
 
+h5 {
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+ }
 
+h5 {
+ color: rgb(255, 0, 0);
+ font-family:verdana;
+ font-size: 250%;
+}
 
 
 
