@@ -26,15 +26,15 @@
  }
 
  .footer .footer-content {
-   border: 1px solid red;
+   border: 1px solid greenyellow;
    height: 350px;
    display: flex;
  }
+ 
 .footer .footer-content .footer-section {
 flex: 1;
 padding: 25px;
-border: 1px solid white;
-
+border: 1px solid purple;
 }
 
  .footer .footer-bottom {
