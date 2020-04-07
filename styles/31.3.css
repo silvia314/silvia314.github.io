@@ -1,18 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:20')
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans serif; 
-  background: url('pi.png')
-  background-attachment: fixed; 
-}
-
-/* ? 
-
 *{
     box-sizing: border-box;
 } 
+
 
 
 .item1{grid-area: header;} 
@@ -34,7 +23,6 @@ body {
   .item7 { grid-column: 1 / span 4; grid-row: 4; }
   .item8 { grid-column: 5 / span 8; grid-row: 4; }           
 }
-
   
   html, body { 
     height: 100%;
@@ -50,7 +38,7 @@ body {
     p { page-break-after: always; }
     p:last-child { page-break-after: never; }
 
- /* footer 
+ /* footer */
  .footer {
    background: #303036;
    color: #d3d3d3;
@@ -170,5 +158,3 @@ table, th, td {
   table#t01_image {
     background-color: white;   
   }
-
-*/
