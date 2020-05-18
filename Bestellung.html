@@ -56,19 +56,144 @@
 <!-- Formular -->
 
 <h2>Bestellung</h2>
+<p>
+  Es ist nur möglich die Pullover eines SPFs und eines EFS pro Einkauf zu kaufen. Die Rechnung wird dann per Mail zugestellt. 
+</p>
+
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Vorname</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Dein Vorname..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Nachname</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Dein Nachname..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Klasse">Kasse</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Klasse" name="Klasse" placeholder="Deine Klasse..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">E-mail adresse</label>
+      </div>
+      <div class="col-75">
+        <input type="mail" id="email" name="email" placeholder="Deine E-mail Adresse..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Land</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="Schweiz">Schweiz</option>
+          <option value="Deutschland">Deutschland</option>
+          <option value="Österreich">Österreich</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="size">Grösse</label>
+      </div>
+      <div class="col-75">
+        <select id="size" name="size">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+          <option value="XXL">XXL</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="spf">SPF</label>
+        </div>
+        <div class="col-75">
+          <select id="spf" name="spf">
+            <option value="Auswählen">Auswählen</option>
+            <option value="Spanisch">Spanisch</option>
+            <option value="Italienisch">Italienisch</option>
+            <option value="BG">BG</option>
+            <option value="PPP">PPP</option>
+            <option value="Wirtschaft und Recht">Wirtschaft und Recht</option>
+            <option value="Physik und Anwendung der Mathematik">Physik und Anwendung der Mathematik</option>
+            <option value="Biologie und Chemie">Biologie und Chemie</option>
+          </select>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="favcolor">deine gewünschte Farbe</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="Anzahl" name="Anzahl" min="1" max="3" placeholder="Anzahl">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Anzahl">Anzahl</label>
+          </div>
+          <div class="col-75">
+            <input type="color" id="favcolor" name="favcolor" placeholder="Aussuchen">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="ef">EF</label>
+          </div>
+        <div class="col-75">
+          <select id="ef" name="EF">
+            <option value="Auswählen">Auswählen</option>
+            <option value="Geschichte">Geschichte</option>
+            <option value="Geografie">Geografie</option>
+            <option value="Musik">Musik</option>
+            <option value="BG">BG</option>
+            <option value="PPP">PPP</option>
+            <option value="Wirtschaft und Recht">Wirtschaft und Recht</option>
+            <option value="Physik und Anwendung der Mathematik">Physik und Anwendung der Mathematik</option>
+            <option value="Biologie und Chemie">Biologie und Chemie</option>
+            <option value="Sport">Sport</option>
+          </select>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Anzahl">Anzahl (zwischen 1 und 3)</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="Anzahl" name="Anzahl" min="1" max="3" placeholder="Anzahl">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Deine Nachricht.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div> 
 
 
-<form>
-  <label>Grösse:
-    <select name="top5" size="5" multiple>
-      <option>Heino</option>
-      <option>Michael Jackson</option>
-      <option>Tom Waits</option>
-      <option>Nina Hagen</option>
-      <option>Marianne Rosenberg</option>
-    </select>
-  </label>
-</form>
+
   
   
 

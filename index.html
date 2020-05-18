@@ -49,61 +49,128 @@
 <main> <!----------------------------------------------------------------> 
 
   <body>
-<!-----------slideshow-----------------------------------------------------> 
+
+<!-----------slideshow 1 SPF -----------------------------------------------------> 
+
+     <!-- Slideshow container -->
+     <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides1 fade">
+        <div class="numbertext">1 / 7</div>
+        <img src="images/SPF_PAM.png" style="width:100%">
+        <div class="text">SPF Physik und Anwendung der Mathematik</div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">2 / 7</div>
+        <img src="images/SPF_Bio-Chemie.png" style="width:100%">
+        <div class="text">EF Biologie und Chemie </div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">3 / 7</div>
+        <img src="images/SPF_Spanisch.png" style="width:100%">
+        <div class="text"> SPF Spanisch</div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">4 / 7</div>
+        <img src="images/SPF_Italienisch.png" style="width:100%">
+        <div class="text">SPF Italienisch </div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">5 / 7</div>
+        <img src="images/SPF_PPP.png" style="width:100%">
+        <div class="text">SPF Psychologie, Pädagogik und Philosophie </div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">6 / 7</div>
+        <img src="images/SPF_BG.png" style="width:100%">
+        <div class="text">SPF Bildernisches Gestalten </div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">6 / 7</div>
+        <img src="images/SPF_W&R.png" style="width:100%">
+        <div class="text">SPF Wirtschaft und Recht </div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+    </div> 
+
+
+<!-----------slideshow 2 EF -----------------------------------------------------> 
 
      <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">1 / 9</div>
     <img src="images/EF IT_back.png" style="width:100%">
     <div class="text">EF Informatik</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">2 / 9</div>
     <img src="images/EF_BG.png" style="width:100%">
     <div class="text">EF BG </div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">3 / 9</div>
     <img src="images/EF_Bio-Chemie.png" style="width:100%">
     <div class="text"> EF Biologie und Chemie</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">4 / 9</div>
     <img src="images/EF_Geschichte.png" style="width:100%">
     <div class="text">EF Geschichte </div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">5 / 9</div>
     <img src="images/EF_Musik.png" style="width:100%">
     <div class="text">EF Musik </div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">6 / 9</div>
     <img src="images/EF_PPP.png" style="width:100%">
     <div class="text">EF Psychologie, Pädagogik und Philosophie </div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">7 / 9</div>
     <img src="images/EF_Sport.png" style="width:100%">
     <div class="text">EF Sport </div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">8 / 9</div>
     <img src="images/EF_W&R.png" style="width:100%">
     <div class="text">EF Wirtschaft und Recht </div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">9 / 9</div>
     <img src="images/EF_PAM.png" style="width:100%">
     <div class="text">EF Physik und Anwendung der Mathematik </div>
@@ -130,23 +197,27 @@
   <span class="dot" onclick="currentSlide(9)"></span>
 </div> 
     
-<script>
 
-var slideIndex = 0;
-showSlides();
+    <script>
+      var slideIndex = [0,0];
+      /* Class the members of each slideshow group with different CSS classes */
+      var slideId = ["mySlides1", "mySlides2"]
+      showSlides();
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides1", "mySlides2");
+        for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+        }
+      slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+      } 
+      </script>
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-} 
-  </script>
 
     <h2>Suchst du einen bequemen Pulli?</h2>
 
