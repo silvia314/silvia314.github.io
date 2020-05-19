@@ -57,7 +57,9 @@
 
 <h2>Bestellung</h2>
 <p>
-  Es ist nur möglich die Pullover eines SPFs und eines EFS pro Einkauf zu kaufen. Die Rechnung wird dann per Mail zugestellt. 
+  Es ist nur möglich die Pullover eines SPFs und eines EFS pro Einkauf zu kaufen.
+  Die Rechnung wird dann per Mail zugestellt. Es wird nur zweimal pro Jahr eine Bestellung aufgegeben. 
+  Weitere Informationen bekommst du mit der Bestellungsbestätigung per Mail.
 </p>
 
 <div class="container">
@@ -140,15 +142,15 @@
             <label for="favcolor">deine gewünschte Farbe</label>
           </div>
           <div class="col-75">
-            <input type="number" id="Anzahl" name="Anzahl" min="1" max="3" placeholder="Anzahl">
+            <input type="color" id="favcolor" name="favcolor" placeholder="Aussuchen">
           </div>
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="Anzahl">Anzahl</label>
+            <label for="Anzahl">Anzahl (zwischen 1 und 3)</label>
           </div>
           <div class="col-75">
-            <input type="color" id="favcolor" name="favcolor" placeholder="Aussuchen">
+            <input type="number" id="Anzahl" name="Anzahl" min="1" max="3" placeholder="Anzahl">
           </div>
         </div>
         <div class="row">
@@ -169,6 +171,14 @@
             <option value="Sport">Sport</option>
           </select>
         </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="favcolor">deine gewünschte Farbe</label>
+      </div>
+      <div class="col-75">
+        <input type="color" id="favcolor" name="favcolor" placeholder="Aussuchen">
+      </div>
     </div>
     <div class="row">
       <div class="col-25">
