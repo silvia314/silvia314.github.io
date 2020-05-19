@@ -50,6 +50,8 @@
 
   <body>
 
+    <h2>Suchst du einen bequemen Pulli?</h2>
+
 <!-----------slideshow -----------------------------------------------------> 
 
      <!-- Slideshow container -->
@@ -179,28 +181,29 @@
   <span class="dot" onclick="currentSlide(16)"></span>
 </div> 
   
-<style> 
-    var slideIndex = 0;
+<script> 
+  var slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-  } 
-</style>
+var i;
+var slides = document.getElementsByClassName("mySlides");
+for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}
+slides[slideIndex-1].style.display = "block";
+setTimeout(showSlides, 2000); // Change image every 2 seconds
+} 
+</script>
 
 
 
 
 
-    <h2>Suchst du einen bequemen Pulli?</h2>
+
+    
 
     <h5>Dies ist ein Schulprojekt. Es wird nichts verkauft. </h5>
   
