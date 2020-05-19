@@ -43,6 +43,24 @@ body {
     font-family: 'Lora', serif;
   }
 
+  img {
+    width:100%;
+    height:auto;
+    position: center;
+  }
+
+  @media screen and (min-width:28em) {
+    img {
+      width:50%;
+    }
+  }
+  
+  @media screen and (min-width:50em) {
+    img {
+      width:33%;
+    }
+  }
+
 
 @page { margin: 100px 25px; }
     /*header { position: fixed top right; top: 0px; left: 0px; right: 0px; background-color: white; height: 175px; }*/
@@ -378,7 +396,7 @@ table, th, td {
   }
 
   th, td {
-    padding: 5px;
+    padding: 50px;
     text-align: center;
   }
 
@@ -389,15 +407,15 @@ table, th, td {
   }
 
   table#t01 th {
-    color: white;
-    background-color: black;
+    color: orange;
+    background-color: white;
   }
 
   table#t01 tr:nth-child(even) {
-    background-color: #f5db4b;
+    background-color: rgb(247, 214, 152);
   }
   table#t01 tr:nth-child(odd) {
-   background-color: rgb(240, 176, 80);
+   background-color: rgba(255, 166, 0, 0.596);
   }
   table#t01_image {
     background-color: white;   
